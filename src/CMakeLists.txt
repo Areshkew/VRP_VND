@@ -1,0 +1,6 @@
+add_library(Node Node.cpp)
+add_library(VRP VRP.cpp Node.cpp LocalSearch.cpp)
+add_library(Vehicle Vehicle.cpp)
+add_library(Route Route.cpp)
+add_library(QuadTree QuadTree.cpp)
+add_library(LocalSearch LocalSearch.cpp)
